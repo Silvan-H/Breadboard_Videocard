@@ -13,11 +13,11 @@ This github repository contains the code used to programm a Nor-Flash (SST39SF04
 ### Load Image into Flash
 - Run Erase Flash Arduino Script
 - Run LoadImage Arduino Script (will await data)
-- Run load_image.py (will serially feed data to Arduino for processing)
+- Run load_image.py (will serially feed data to Arduino for processing) -> Adjust Port and Binary File
 - (Optional) Run ImageDump to view the Hexdata stored on the Flash (On the specified addresses)
 
 ### Load 8-Frame Animation into Flash
 - Run Erase Flash Arduino Script
 - Run LoadAnimation Arduino Script (will await data)
-- Run load_animation.py (will serially feed data to Arduino for processing)
+- Run load_animation.py (will serially feed data to Arduino for processing) -> Adjust Port and Binary File
 - (Optional) Run AnimationDump to view the Hexdata stored on the Flash (On the specified addresses)
